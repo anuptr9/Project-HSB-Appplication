@@ -1,0 +1,234 @@
+2022-05-13 08:43:25.770  INFO 13628 --- [restartedMain] com.cg.HsbAdminSpotApplication           : Starting HsbAdminSpotApplication using Java 17.0.2 on LIN19002398 with PID 13628 (C:\Users\ANUPATIW\eclipse-workspace\HSBAdminSpot\target\classes started by anupatiw in C:\Users\ANUPATIW\eclipse-workspace\HSBAdminSpot)
+2022-05-13 08:43:25.781  INFO 13628 --- [restartedMain] com.cg.HsbAdminSpotApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 08:43:25.860  INFO 13628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-13 08:43:25.861  INFO 13628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-13 08:43:27.571  INFO 13628 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-13 08:43:27.840  INFO 13628 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 264 ms. Found 1 MongoDB repository interfaces.
+2022-05-13 08:43:28.356  INFO 13628 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f1fbd4c1-9690-3733-ab68-70aa2595d6b0
+2022-05-13 08:43:28.534  INFO 13628 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7f06904b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-13 08:43:28.674  INFO 13628 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-05-13 08:43:30.309  INFO 13628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2022-05-13 08:43:30.328  INFO 13628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 08:43:30.329  INFO 13628 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 08:43:30.643  INFO 13628 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 08:43:30.643  INFO 13628 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4782 ms
+2022-05-13 08:43:31.595  INFO 13628 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=mydatabase1.noa4v.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-rc2nfj-shard-0'}
+2022-05-13 08:43:31.652  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-srv-mydatabase1.noa4v.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server mydatabase1-shard-00-02.noa4v.mongodb.net:27017 to client view of cluster
+2022-05-13 08:43:31.692  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-srv-mydatabase1.noa4v.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server mydatabase1-shard-00-00.noa4v.mongodb.net:27017 to client view of cluster
+2022-05-13 08:43:31.693  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-srv-mydatabase1.noa4v.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server mydatabase1-shard-00-01.noa4v.mongodb.net:27017 to client view of cluster
+2022-05-13 08:43:31.880  WARN 13628 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-13 08:43:32.121  WARN 13628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-13 08:43:32.203  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-02.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:187828}] to mydatabase1-shard-00-02.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.203  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-00.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:188851}] to mydatabase1-shard-00-00.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.203  INFO 13628 --- [cluster-rtt-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-00.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:188851}] to mydatabase1-shard-00-00.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.203  INFO 13628 --- [cluster-rtt-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:198354}] to mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.203  INFO 13628 --- [cluster-rtt-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-02.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:187828}] to mydatabase1-shard-00-02.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.204  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:198354}] to mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.204  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-00.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mydatabase1-shard-00-00.noa4v.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=269482900, setName='atlas-rc2nfj-shard-0', canonicalAddress=mydatabase1-shard-00-00.noa4v.mongodb.net:27017, hosts=[mydatabase1-shard-00-00.noa4v.mongodb.net:27017, mydatabase1-shard-00-01.noa4v.mongodb.net:27017, mydatabase1-shard-00-02.noa4v.mongodb.net:27017], passives=[], arbiters=[], primary='mydatabase1-shard-00-01.noa4v.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=627547c03c84275f3376eea3, counter=4}, lastWriteDate=Fri May 13 08:43:31 IST 2022, lastUpdateTimeNanos=767125369616800}
+2022-05-13 08:43:32.204  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-02.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mydatabase1-shard-00-02.noa4v.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=269483000, setName='atlas-rc2nfj-shard-0', canonicalAddress=mydatabase1-shard-00-02.noa4v.mongodb.net:27017, hosts=[mydatabase1-shard-00-00.noa4v.mongodb.net:27017, mydatabase1-shard-00-01.noa4v.mongodb.net:27017, mydatabase1-shard-00-02.noa4v.mongodb.net:27017], passives=[], arbiters=[], primary='mydatabase1-shard-00-01.noa4v.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=6275495c999cb9d3bbb98a81, counter=3}, lastWriteDate=Fri May 13 08:43:31 IST 2022, lastUpdateTimeNanos=767125369616900}
+2022-05-13 08:43:32.204  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mydatabase1-shard-00-01.noa4v.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=259470100, setName='atlas-rc2nfj-shard-0', canonicalAddress=mydatabase1-shard-00-01.noa4v.mongodb.net:27017, hosts=[mydatabase1-shard-00-00.noa4v.mongodb.net:27017, mydatabase1-shard-00-01.noa4v.mongodb.net:27017, mydatabase1-shard-00-02.noa4v.mongodb.net:27017], passives=[], arbiters=[], primary='mydatabase1-shard-00-01.noa4v.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000006d, setVersion=7, topologyVersion=TopologyVersion{processId=627548b350687718903508b2, counter=6}, lastWriteDate=Fri May 13 08:43:31 IST 2022, lastUpdateTimeNanos=767125369619000}
+2022-05-13 08:43:32.209  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000006d from replica set primary mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.210  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.211  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+2022-05-13 08:43:32.258  WARN 13628 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-13 08:43:34.354  INFO 13628 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-13 08:43:34.492  WARN 13628 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-13 08:43:34.507  INFO 13628 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-13 08:43:34.639  INFO 13628 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-13 08:43:34.717  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-13 08:43:34.724  INFO 13628 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 08:43:34.763  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-13 08:43:34.763  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-13 08:43:34.763  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-13 08:43:34.763  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-13 08:43:34.763  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-13 08:43:34.764  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-13 08:43:34.764  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-13 08:43:35.260  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-13 08:43:35.275  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-13 08:43:35.284  INFO 13628 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-13 08:43:35.308  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1652411615307 with initial instances count: 6
+2022-05-13 08:43:35.314  INFO 13628 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HSB ADMIN SPOT MODULE with eureka with status UP
+2022-05-13 08:43:35.315  INFO 13628 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652411615315, current=UP, previous=STARTING]
+2022-05-13 08:43:35.319  INFO 13628 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HSB ADMIN SPOT MODULE/LIN19002398.corp.capgemini.com:HSB Admin Spot Module:8083: registering service...
+2022-05-13 08:43:35.367  INFO 13628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2022-05-13 08:43:35.368  INFO 13628 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2022-05-13 08:43:35.404  INFO 13628 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HSB ADMIN SPOT MODULE/LIN19002398.corp.capgemini.com:HSB Admin Spot Module:8083 - registration status: 204
+2022-05-13 08:43:35.658  INFO 13628 --- [restartedMain] com.cg.HsbAdminSpotApplication           : Started HsbAdminSpotApplication in 10.882 seconds (JVM running for 13.013)
+2022-05-13 08:43:35.716  INFO 13628 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-13 08:43:35.716  INFO 13628 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-13 08:43:35.718  INFO 13628 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-13 08:48:34.779  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 08:53:34.788  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 08:58:34.791  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:03:34.825  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:08:34.833  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:13:34.840  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:18:34.842  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:23:34.851  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:28:34.853  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:33:34.870  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:38:34.882  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:43:34.897  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:48:34.906  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:53:34.923  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 09:58:34.939  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:03:34.942  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:08:34.954  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:13:34.969  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:18:34.975  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:23:34.990  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:28:35.004  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:33:35.013  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:38:35.017  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:43:35.019  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:48:35.041  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:53:35.049  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 10:58:35.062  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:03:35.076  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:08:35.078  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:13:35.089  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:18:35.104  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:23:35.112  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:28:35.125  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:33:35.142  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:38:35.146  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:43:35.148  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:48:35.160  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:53:35.186  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 11:58:35.202  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:03:35.217  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:08:35.231  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:13:35.236  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:18:35.251  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:23:35.254  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:28:35.270  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:33:35.280  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:38:35.295  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:43:35.312  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 12:48:35.327  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:09:33.163  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-02.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server mydatabase1-shard-00-02.noa4v.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:701) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-05-13 14:09:33.165  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:701) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-05-13 14:09:33.278  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-00.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server mydatabase1-shard-00-00.noa4v.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:701) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-05-13 14:09:33.346  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:205399}] to mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+2022-05-13 14:09:33.350  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mydatabase1-shard-00-01.noa4v.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=127590200, setName='atlas-rc2nfj-shard-0', canonicalAddress=mydatabase1-shard-00-01.noa4v.mongodb.net:27017, hosts=[mydatabase1-shard-00-00.noa4v.mongodb.net:27017, mydatabase1-shard-00-01.noa4v.mongodb.net:27017, mydatabase1-shard-00-02.noa4v.mongodb.net:27017], passives=[], arbiters=[], primary='mydatabase1-shard-00-01.noa4v.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000006d, setVersion=7, topologyVersion=TopologyVersion{processId=627548b350687718903508b2, counter=6}, lastWriteDate=Fri May 13 14:09:32 IST 2022, lastUpdateTimeNanos=786686487280000}
+2022-05-13 14:09:33.350  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+2022-05-13 14:09:33.392  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-02.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:194641}] to mydatabase1-shard-00-02.noa4v.mongodb.net:27017
+2022-05-13 14:09:33.393  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-02.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mydatabase1-shard-00-02.noa4v.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=113094700, setName='atlas-rc2nfj-shard-0', canonicalAddress=mydatabase1-shard-00-02.noa4v.mongodb.net:27017, hosts=[mydatabase1-shard-00-00.noa4v.mongodb.net:27017, mydatabase1-shard-00-01.noa4v.mongodb.net:27017, mydatabase1-shard-00-02.noa4v.mongodb.net:27017], passives=[], arbiters=[], primary='mydatabase1-shard-00-01.noa4v.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=6275495c999cb9d3bbb98a81, counter=3}, lastWriteDate=Fri May 13 14:09:32 IST 2022, lastUpdateTimeNanos=786686533182900}
+2022-05-13 14:09:33.416  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-00.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:195690}] to mydatabase1-shard-00-00.noa4v.mongodb.net:27017
+2022-05-13 14:09:33.416  INFO 13628 --- [cluster-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-00.noa4v.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mydatabase1-shard-00-00.noa4v.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=98192900, setName='atlas-rc2nfj-shard-0', canonicalAddress=mydatabase1-shard-00-00.noa4v.mongodb.net:27017, hosts=[mydatabase1-shard-00-00.noa4v.mongodb.net:27017, mydatabase1-shard-00-01.noa4v.mongodb.net:27017, mydatabase1-shard-00-02.noa4v.mongodb.net:27017], passives=[], arbiters=[], primary='mydatabase1-shard-00-01.noa4v.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=627547c03c84275f3376eea3, counter=4}, lastWriteDate=Fri May 13 14:09:32 IST 2022, lastUpdateTimeNanos=786686556972000}
+2022-05-13 14:09:36.090  INFO 13628 --- [cluster-rtt-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-01.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:10, serverValue:205578}] to mydatabase1-shard-00-01.noa4v.mongodb.net:27017
+2022-05-13 14:09:41.646  INFO 13628 --- [cluster-rtt-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-00.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:11, serverValue:195702}] to mydatabase1-shard-00-00.noa4v.mongodb.net:27017
+2022-05-13 14:09:41.922  INFO 13628 --- [cluster-rtt-ClusterId{value='627dccdb5ee318295828a6ba', description='null'}-mydatabase1-shard-00-02.noa4v.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:194661}] to mydatabase1-shard-00-02.noa4v.mongodb.net:27017
+2022-05-13 14:11:36.184  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:16:35.912  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:21:35.423  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:26:35.429  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:31:35.437  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:36:35.440  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:41:35.452  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:46:35.459  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:51:35.465  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 14:56:35.479  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:01:35.492  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:06:35.515  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:11:35.520  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:16:35.521  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:21:35.538  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:26:35.551  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:31:35.558  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:36:35.560  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:41:35.565  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:46:35.570  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:51:35.574  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 15:56:35.581  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:01:35.586  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:06:35.602  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:11:35.606  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:16:35.610  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:21:35.624  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:26:35.636  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:31:35.655  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:36:35.665  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:41:35.671  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:46:35.680  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:51:35.683  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-13 16:56:35.694  INFO 13628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
