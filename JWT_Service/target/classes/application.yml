@@ -1,0 +1,28 @@
+jwt:
+  secret: secretkey123
+
+server:
+    port: 8095         
+    
+    
+spring:
+    application:
+           name: HSBUserLocationJWTService
+    data:
+        mongodb:
+            uri: mongodb+srv://root:root1@mydatabase1.noa4v.mongodb.net/HSBAdminDatabase?retryWrites=true&w=majority
+             
+eureka:
+     client:
+          service-url:
+                   defaultZone: http://localhost:8761/eureka/          
+                          
+logging:
+  file: 
+    path: /my-logs/app.log
+    name: log.txt  
+    
+data:
+   exception:
+          incmsg: Invalid Credentials!!
+            
